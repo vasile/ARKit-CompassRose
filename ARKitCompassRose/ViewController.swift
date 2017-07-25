@@ -29,6 +29,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         let configuration = ARWorldTrackingSessionConfiguration()
+        // Align the real world on z(North-South) x(West-East) axis
+        configuration.worldAlignment = .gravityAndHeading
         
         sceneView.session.run(configuration)
     }
