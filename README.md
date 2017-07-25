@@ -1,6 +1,8 @@
 ## ARKit Compass Rose
 ARKit/SceneKit experiment showing the cardinal directions in AR
 
+[![ARKit WindRose demo](http://img.youtube.com/vi/sowhGcZyBUE/0.jpg)](http://www.youtube.com/watch?v=sowhGcZyBUE)
+
 ## License
 
 **Copyright (c) 2017 Vasile Coțovanu** - http://www.vasile.ch
