@@ -12,6 +12,7 @@
 		E157B00F1F272E4200CAD41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157B00D1F272E4200CAD41A /* Main.storyboard */; };
 		E157B0111F272E4200CAD41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E157B0101F272E4200CAD41A /* Assets.xcassets */; };
 		E157B0141F272E4200CAD41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157B0121F272E4200CAD41A /* LaunchScreen.storyboard */; };
+		E157B01E1F2735DD00CAD41A /* CardinalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157B01D1F2735D900CAD41A /* CardinalDirection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E157B0101F272E4200CAD41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E157B0131F272E4200CAD41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E157B0151F272E4200CAD41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E157B01D1F2735D900CAD41A /* CardinalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E157B0101F272E4200CAD41A /* Assets.xcassets */,
 				E157B0121F272E4200CAD41A /* LaunchScreen.storyboard */,
 				E157B0151F272E4200CAD41A /* Info.plist */,
+				E157B01D1F2735D900CAD41A /* CardinalDirection.swift */,
 			);
 			path = ARKitCompassRose;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E157B00C1F272E4200CAD41A /* ViewController.swift in Sources */,
+				E157B01E1F2735DD00CAD41A /* CardinalDirection.swift in Sources */,
 				E157B0081F272E4200CAD41A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
