@@ -41,6 +41,7 @@
 		E157AFFB1F272E4200CAD41A = {
 			isa = PBXGroup;
 			children = (
+				E157B01F1F273A0000CAD41A /* LICENSE */,
 				E157B0061F272E4200CAD41A /* ARKitCompassRose */,
 				E157B0051F272E4200CAD41A /* Products */,
 			);
@@ -57,7 +58,6 @@
 		E157B0061F272E4200CAD41A /* ARKitCompassRose */ = {
 			isa = PBXGroup;
 			children = (
-				E157B01F1F273A0000CAD41A /* LICENSE */,
 				E157B0071F272E4200CAD41A /* AppDelegate.swift */,
 				E157B00B1F272E4200CAD41A /* ViewController.swift */,
 				E157B00D1F272E4200CAD41A /* Main.storyboard */,
