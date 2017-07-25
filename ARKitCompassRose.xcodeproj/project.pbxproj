@@ -24,6 +24,7 @@
 		E157B0131F272E4200CAD41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E157B0151F272E4200CAD41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E157B01D1F2735D900CAD41A /* CardinalDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
+		E157B01F1F273A0000CAD41A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		E157B0061F272E4200CAD41A /* ARKitCompassRose */ = {
 			isa = PBXGroup;
 			children = (
+				E157B01F1F273A0000CAD41A /* LICENSE */,
 				E157B0071F272E4200CAD41A /* AppDelegate.swift */,
 				E157B00B1F272E4200CAD41A /* ViewController.swift */,
 				E157B00D1F272E4200CAD41A /* Main.storyboard */,
