@@ -22,6 +22,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let scene = SCNScene()
         
+        for direction in CardinalDirection.defaults {
+            scene.rootNode.addChildNode(direction.sphere())
+            scene.rootNode.addChildNode(direction.text())
+        }
+        
         sceneView.scene = scene
     }
     
