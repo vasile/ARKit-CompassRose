@@ -33,7 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         // Align the real world on z(North-South) x(West-East) axis
         configuration.worldAlignment = .gravityAndHeading
         
